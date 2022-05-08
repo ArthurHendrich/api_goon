@@ -1,0 +1,18 @@
+Aqui está a lista de comando que iremos utilizar:
+
+Criar ambiente virtual:
+
+python -m venv .(nome) --> criar ambiente virtual
+.\diretorio\Scripts\Activate.ps1
+
+Instalar as bibliotecas necessárias:
+
+pip install -r requirements.txt
+
+
+Iniciar o banco de dados:
+
+set FLASK_APP=app
+flask shell
+from app import db
+db.create_all()
