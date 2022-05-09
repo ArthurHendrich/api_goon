@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.ClasseGeral {
+  width: 428px;
+  height: 926px;
+  background: rgba(32,28,53,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v122_4 {
+  width: 133px;
+  height: 134px;
+  background: url("../images/v122_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 819px;
+  left: 148px;
+  overflow: hidden;
+}
+.Central {
+  width: 403px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 259px;
+  left: 19px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.TextoProfessor {
+  width: 403px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 538px;
+  right: 100px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.TextoAluno {
+  width: 403px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 538px;
+  left: 105px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.iconeprofessor {
+  width: 139px;
+  height: 139px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 388px;
+  left: 52px;
+  border-radius: 50%;
+}
+.iconealuno {
+  width: 139px;
+  height: 139px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 388px;
+  left: 237px;
+  border-radius: 50%;
+}
+.iconeprofessor1 {
+  width: 105px;
+  height: 108px;
+  background: url("../images/v122_70.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 401px;
+  left: 67px;
+  overflow: hidden;
+}
+.iconealuno1 {
+  width: 96px;
+  height: 98px;
+  background: url("../images/v122_71.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 406px;
+  left: 258px;
+  overflow: hidden;
+}

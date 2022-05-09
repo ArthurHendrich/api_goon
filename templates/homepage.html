@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/homepage.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="ClasseGeral">
+            <div class="v122_4"></div>
+            <span class="Central">Bem Vinde, você é?</span>
+            <span class="TextoProfessor">
+                <form action="{{ url_for('register') }}"><button>Professore</button></form>
+            </span>
+            <span class="TextoAluno">
+                <form action="{{ url_for('register') }}"><button>Alune</button></form>
+            </span>
+            <div class="iconeprofessor"></div>
+            <div class="iconealuno"></div>
+            <div class="iconeprofessor1"></div>
+            <div class="iconealuno1"></div>
+        </div>
+    </body>
+</html>

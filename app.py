@@ -43,7 +43,7 @@ class Profile(db.Model):
 @app.route("/")
 def index():
     users = User.query.all()  # Select * from users in DB
-    return render_template("users.html", users=users)
+    return render_template("homepage.html", users=users)
 
 
 @app.route("/user/<int:id>")
@@ -65,13 +65,8 @@ def register():
         db.session.commit()
         return redirect(url_for("index"))
 
-    return render_template("register.html")
+    return render_template("registro.html")
 
-
-@app.route("/type")
-def type():
-    users = User.query.all()  # Select * from users in DB
-    return render_template("type.html", users=users)
 
 @app.route("/login", methods=["GET", "POST"])
 def login():

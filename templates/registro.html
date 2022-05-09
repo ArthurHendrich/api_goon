@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="ClasseGeral">
+
+            <div class="v211_14"></div>
+            <span class="textolateral">Uma plataforma...</span>
+            <span class="Titulo">Seja bem vinde!</span>
+            <span class="Subtitulo">Cadastre-se na sua conta:</span>
+            <div class="iconeGoon"></div>
+
+            
+            <div class="BoxInstituicao">
+            </div>
+            <div class="BoxMatricula"></div>
+            <div class="BoxEmail"></div>
+            <div class="BoxSenha"></div>
+            <div class="BoxRegistro"></div>
+            
+            
+            <form action="{{ url_for('register') }}" method="POST">
+
+            <span class="TextoInstituicao">
+                <input type="text" name="name" placeholder="Nome Completo">
+            </span>
+            <span class="TextoMatricula">Matrícula</span>
+
+            <span class="TextoEmail">
+                <input type="email" name="email" placeholder="E-mail">
+            </span>
+
+            <span class="TextoSenha">
+                <input type="password" name="password" placeholder="***">
+            </span>
+
+            <span class="TextoCadastro">
+                <input type="submit" name="registrar" value="Registrar">
+            </span>
+        </form>
+
+        <div class="BoxLogin"></div>
+        <span class="TextoLogin">
+            <a href="{{ url_for('login') }}">Login</a>
+        </span>
+</body>
+</html>

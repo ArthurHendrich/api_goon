@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.ClasseGeral {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v211_14 {
+  width: 808px;
+  height: 100%;
+  background: url("../images/v211_14.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 650px;
+  overflow: hidden;
+}
+.textolateral {
+  width: 538px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 797px;
+  left: 593px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+}
+.Titulo {
+  width: 538px;
+  color: rgba(146,145,145,1);
+  position: absolute;
+  top: 315px;
+  left: 37px;
+  font-family: Quicksand;
+  font-weight: Medium;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.Subtitulo {
+  width: 406px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 368px;
+  left: 103px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+
+
+.iconeGoon {
+  width: 137px;
+  height: 87px;
+  background: url("../images/v211_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.BoxInstituicao {
+  width: 407px;
+  height: 48px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 484px;
+  left: 102px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.BoxMatricula {
+  width: 407px;
+  height: 48px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 562px;
+  left: 102px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.BoxEmail {
+  width: 407px;
+  height: 48px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 640px;
+  left: 102px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.BoxSenha {
+  width: 407px;
+  height: 48px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 718px;
+  left: 102px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.BoxRegistro {
+  width: 221px;
+  height: 48px;
+  background: rgba(135,116,223,1);
+  opacity: 1;
+  position: absolute;
+  top: 818px;
+  left: 195px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+
+.BoxLogin {
+  width: 100px;
+  height: 20px;
+  background: rgba(135,116,223,1);
+  opacity: 1;
+  position: absolute;
+  top: 850px;
+  left: 450px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.TextoInstituicao {
+  width: 104px;
+  color: rgba(0,0,0,0.5299999713897705);
+  position: absolute;
+  top: 498px;
+  left: 108px;
+  font-family: Quicksand;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoMatricula {
+  width: 95px;
+  color: rgba(0,0,0,0.5299999713897705);
+  position: absolute;
+  top: 572px;
+  left: 108px;
+  font-family: Quicksand;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoEmail {
+  width: 65px;
+  color: rgba(0,0,0,0.5299999713897705);
+  position: absolute;
+  top: 650px;
+  left: 108px;
+  font-family: Quicksand;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoSenha {
+  width: 64px;
+  color: rgba(0,0,0,0.5299999713897705);
+  position: absolute;
+  top: 732px;
+  left: 108px;
+  font-family: Quicksand;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoCadastro {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 828px;
+  left: 241px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+
+.TextoLogin {
+  width: 150px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 843px;
+  left: 453px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
