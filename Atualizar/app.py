@@ -117,6 +117,11 @@ def profissao   ():
     users = User.query.all()
     return render_template("profissao.html", users=users)
 
+@app.route("/reset")
+def reset():
+    return render_template("reset.html")
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
