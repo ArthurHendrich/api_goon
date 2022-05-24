@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensinologia</title>
+
+</head>
+
+<body>
+    <h1> Seja bem vindo</h1>
+    <nav>
+        {% if not current_user.is_authenticated %}
+            <a href="{{ url_for('register') }}">Registre-se</a>
+            <a href="{{ url_for('login') }}">Login</a>
+        {% else %}
+            <a href="{{ url_for('logout') }}">Sair</a>
+            {% for user in users %}
+            <ul>
+                <a href="{{ url_for('unique', id=user.id) }}">{{ user.name }}</a>
+            </ul>
+            {% endfor %}    
+        {% endif %}
+    </nav>
+    
+
+
+</body>
+
+</html>

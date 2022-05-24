@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/PaginaInicial.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        <div class="BackGround">
+            <div class="BarraTarefas">
+                <span class="nomeEmpresa">STIK</span>
+                <a id = "redes1" class="btnsuperior btn-sobre" href="#anchor1" >Sobre nós</a>
+                <a id = "redes2" class="btnsuperior btn-contato" href="#anchor" >Contato</a>
+            </div>
+
+            <div id="BoxPropostas">
+                <div class="Prosposta1"></div>
+                <div class="Prosposta2"></div>
+                <div class="Prosposta3"></div>
+            </div>
+
+            <div id="TextosImagens">
+                <span class="textosimages Texto1">FRASE DE EFEITO</span>
+                <span class="textosimages Texto1-1">baboseira de coach</span>
+                <span class="textosimages Texto2">SOBRE NÓS</span>
+                <span class="textosimages Texto3">NOSSAS PROPOSTAS</span>
+            </div>
+
+            <div id="TextosBox">
+                <span class="foratexto TextoBox1">Proposta 1</span>
+                <span class="foratexto TextoBox2">Proposta 2</span>
+                <span class="foratexto TextoBox3">Proposta 3</span>
+                <span class="TextoBox4">Template simples</span>
+                <span class="TextoBox5">Template um pouco complexo</span>
+                <span class="TextoBox6">Template feito pela equipe</span>
+            </div>
+
+            
+            <div id="Texto">
+                <span class="TextoContato1">Contato</span>
+                <span class="TextoContato2">R. do Bom Jesus, 10</span>
+                <span class="TextoContato3">(81) 96666-6666</span>
+                <span class="TextoContato4">Sigam-nos</span>
+            </div>
+
+            
+
+            <div id="BoxRedes">
+                <a id= "redes1" class="icones social-icon" href="https://twitter.com" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a id= "redes2" class="icones social-icon1" href="https://instagram.com" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a id = "redes3" class="icones social-icon2" href="https://facebook.com" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </div>
+            
+            
+
+            <div id="BoxFaleConosco">
+                <div id = "fconosco1" class="BoxConosco Conosco1"></div>
+                <div id = "fconosco2" class="BoxConosco Conosco2"></div>
+                <div id = "fconosco3" class="BoxConosco Conosco3"></div>
+            </div>
+
+            
+            <div id="BoxImagens">
+                <div id = "boximage1" class="BoxImage ImagemFrase"></div>
+                <div id = "boximage2" class="BoxImage ImagemSobre"></div>
+                <div id = "boximage3" class="BoxImage ImagemLogin"></div>
+            </div>
+
+            <div id="Imagens">
+                <div class="Imagem1"></div>
+                <div class="Imagem2"></div>
+                <div class="Imagem3"></div>
+            </div>
+            
+            <div id="formulario">
+                <form action="https://formsubmit.co/arthurhendrich25@gmail.com" method="POST" class="form">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder = "Insira seu nome" id="name" required>
+            
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder= "Insira seu e-mail" id="email" required>
+            
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" placeholder="Escreva Aqui!" id="message" required></textarea>
+                    <button type="submit">Enviar</button>
+            </div>
+
+            
+            
+            <div class="BoxRegistro">
+                <a id = "redes1" class="buttonlogin" href="{{ url_for('painel') }}">Acesso</a>
+            
+        </div>
+
+        
+    </body>
+    <div id="anchor"></div>
+</html>

@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+  
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0px;
+    }
+  
+    body {
+        width: 100%;
+        padding: 0px;
+    }
+}
+  
+  @media screen and (max-width: 600px) {
+    body {
+        float: none;
+        text-align: center;
+    }
+}
+  
+body {
+    font-size: 14px;
+    background-color: rgba(106,14,139,1);
+}
+
+.BackGround {
+    width: 766px;
+    height: 681px;
+    background: url("../images/v472_2189.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    overflow: hidden;
+}
+
+#formulario {
+    position:relative;
+    width: 660px;
+    height: 400px;
+    opacity: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Heebo; 
+    top: 170px;
+    left: -50px;
+}
+
+.form {
+    width: 100%;
+    max-width: 21rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+  
+.form label,
+.form input {
+      display: block;
+      width: 100%;
+}
+  
+.form label {
+    color: white;
+    line-height: 0.8;
+    margin-bottom: 0.4rem;
+}
+  
+.form input {
+      font: inherit;
+      padding: 0.7rem;
+      margin-bottom: 0.6rem;
+      border: 0.8px solid transparent;
+      border-radius: 8px;
+      transition: border-color, box-shadow 0.2s;
+      font-size: 1.4rem;
+}
+  
+.form input:hover,
+.form input:focus {
+    outline: none;
+    border-color: rgb(255, 166, 0);
+    box-shadow: 0 0 0 3px rgb(255, 204, 127);
+}
+  
+.Botun {
+    background: rgb(161, 29, 161);
+    color: white
+}
+
+
+.logoStick {
+    width: 100px;
+    height: 100px;
+    background: url("../images/v472_2343.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: -20px;
+    left: 150px;
+    overflow: hidden;
+}
+  
+.nameStick {
+    width: 91px;
+    height: 50px;
+    background: url("../images/v472_2342.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 240px;
+    overflow: hidden;
+}
+
+.buttonBack,
+.back {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 4px;
+    color: white;
+    height: 100%;
+}
+    
+.back {
+    font-size: 2em;
+    background: (0, 0, 0, 0.08);
+}
+    
+.Textos {
+    position: absolute;
+    font-family: Heebo;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+    
+.TextoPainel1 {
+    font-weight: bold;
+    font-size: 32px;
+    width: 300px;
+    top: 100px;
+    left: 128px;
+}
+      
+.TextoPainel2 {
+    font-weight: 400;
+    font-size: 28px;
+    left: 170px;
+    top: 180px;
+}
+    
+.TextoPainel3 {
+    top: 600px;
+    left: 183px;
+}
+    
+.TextoRegistro {
+    top: 600px;
+    left: 318px;
+    position: absolute;
+    font-family: Heebo;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(175, 88, 233);
+}
+
+.TextoSenha {
+    top: 500px;
+    left: 230px;
+    position: absolute;
+    font-family: Heebo;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(175, 88, 233);
+}

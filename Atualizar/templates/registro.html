@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/registro.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        
+        <div id = "Imagens">
+            <div class="logoStick"></div>
+            <div class="nameStick"></div>
+        </div>
+
+        <div class="Fundo">
+            <div class="BackGround"></div>
+        </div>
+
+        <div id="Texto">
+            <span class="Textos TextoPainel1">SEJA BEM VINDO ESTUDANTE!</span>
+            <span class="Textos TextoPainel2">Cadastre sua conta:</span>
+            <span class="Textos TextoPainel3">Já possui uma conta?</span>
+            <a class="TextoLogin" href="{{ url_for('login') }}">Clique aqui.</a>
+        </div>
+        
+        <div id="formulario">
+            <form action="{{ url_for('register') }}" method="POST" class="form">
+                <label for="Instituicao">Instituicao</label>
+                <input type="text" name="name" placeholder="qual a instituição ?" id="instituicao" required>
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" placeholder = "Insira seu nome" id="name" required>
+        
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder= "Insira seu e-mail" id="email" required>
+                
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder= "***" id="password" required>
+                
+                <input class="Botun" type="submit" name="registro" value="Cadastre-se">
+            </form>
+        </div>
+
+        <div id="GetBack">
+            <a id = "back1" class="buttonBack" href="{{ url_for('profissao')}}">
+                <span class="back"><ion-icon name="chevron-back-circle-outline" size="large"></ion-icon></span>
+            </a>
+        </div>
+
+                    <!-- <div class="BoxLogin"></div>
+        <span class="TextoLogin">   
+            <a href="{{ url_for('login') }}">Login</a>
+        </span> -->
+        </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/profissao.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        
+        <div id = "Imagens">
+            <div class="logoStick"></div>
+            <div class="nameStick"></div>
+        </div>
+
+        <div class="Fundo"> 
+            <div class="BackGround"></div>
+            <div class="ImagemPainel"></div>
+
+            <div class="ImagemAluno"></div>
+            <div class="ImagemGestor"></div>
+        </div>
+
+        <div id="Texto">
+            <span class="Textos TextoPainel1">Melhor comunicação entre aluno e professor.</span>
+            <span class="Textos TextoPainel2">EM QUAL VOCÊ SE ENCAIXA</span>
+        </div>
+
+        <div class="BoxRegistro">
+            <a id = "redes2" class="buttons buttonProfessor" href="{{ url_for('register')}}" >
+                <span class="button__icon1"><ion-icon name="person-circle-outline"></ion-icon></span>
+                <span class="buttonText">ALUNO</span>
+            </a>
+            <a id = "redes1" class="buttons buttonAluno" href="{{ url_for('register')}}" >
+                <span class="button__icon2"><ion-icon name="people-circle-outline"></ion-icon></span>
+                <span class="buttonText">PROFESSOR</span>
+            </a>
+            <a id = "redes3" class="buttons buttonGestor" href="{{ url_for('register')}}" >
+                <span class="button__icon3"><ion-icon name="body-outline"></ion-icon></span>
+                <span class="buttonText">GESTOR</span>
+            </a>
+        </div>
+
+        <div id="GetBack">
+            <a id = "back1" class="buttonBack" href="{{ url_for('painel')}}">
+                <span class="back"><ion-icon name="chevron-back-circle-outline" size="large"></ion-icon></span>
+            </a>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,525 @@
+* {
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 768px) {
+  section, aside {
+    width: 100%;
+    padding: 0px;
+  }
+
+  body {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    float: none;
+    text-align: center;
+  }
+}
+
+body {
+  font-size: 14px;
+}
+.BackGround {
+  width: 100%;
+  height: 3472px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.BarraTarefas {
+  width: 100%;
+  height: 63px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.nomeEmpresa {
+  width: 312px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+.btnsuperior{
+  color: rgba(255,255,255,1);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: left;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 30px;
+  position: absolute;
+  top: 14px;
+  width: 312px;
+}
+
+.btn-sobre {
+  left: 527px;
+}
+.btn-contato {
+  left: 325px;
+}
+
+.BoxImage {
+  width: 609px;
+  height: 446px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.ImagemFrase {
+  top: 158px;
+  left: 57px;
+}
+.ImagemSobre {
+  top: 799px;
+  left: 774px;
+}
+.ImagemLogin {
+  top: 2280px;
+  left: 430px;
+}
+
+.Prosposta1 {
+  width: 302px;
+  height: 474px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 1657px;
+  left: 129px;
+  border: 3px solid rgba(0,0,0,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+.textosimages {
+  color: rgba(0,0,0,1);
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+  position: absolute;
+}
+.Texto1 {
+  width: 557px;
+  top: 311px;
+  left: 740px;
+
+}
+.Texto1-1 {
+  width: 603px;
+  top: 899px;
+  left: 45px;
+}
+.Texto2 {
+  width: 557px;
+  top: 799px;
+  left: 102px;
+}
+
+.Texto3 {
+  width: 681px;
+  top: 1450px;
+  left: 380px;
+}
+
+.foratexto{
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+  top: 1574px;
+  width: 208px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+}
+.TextoBox1 {
+  left: 180px;
+}
+
+.TextoBox2 {
+  left: 650px;
+}
+
+.TextoBox3 {
+  left: 1050px;
+}
+
+.Prosposta2 {
+  width: 302px;
+  height: 474px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 1657px;
+  left: 1000px;
+  border: 3px solid rgba(0,0,0,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+.Prosposta3 {
+  width: 302px;
+  height: 474px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 1657px;
+  left: 601px;
+  border: 3px solid rgba(0,0,0,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+
+.TextoContato1 {
+  width: 247px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2845px;
+  left: 102px;
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoContato2   {
+  width: 375px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2961px;
+  left: 111px;
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoContato3 {
+  width: 320px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3011px;
+  left: 111px;
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoBox4 {
+  width: 286px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1835px;
+  left: 160px;
+  font-family: Quicksand;
+  font-weight: Medium;
+  font-size: 27px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoBox5 {
+  width: 286px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1835px;
+  left: 620px;
+  font-family: Quicksand;
+  font-weight: Medium;
+  font-size: 27px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoBox6 {
+  width: 286px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1835px;
+  left: 1025px;
+  font-family: Quicksand;
+  font-weight: Medium;
+  font-size: 27px;
+  opacity: 1;
+  text-align: left;
+}
+.TextoContato4 {
+  width: 324px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3061px;
+  left: 102px;
+  font-family: Quicksand;
+  font-weight: SemiBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.icones{
+  transition: color0.2s;
+  top: 3177px;
+  text-decoration: none;
+  margin: 10 10 10px;
+  font-size: 5em;
+}
+
+.icones:hover{
+  color: blue;
+}
+.social-icon {
+  color: rgb(71, 172, 206);
+  left: 102px;
+  position: absolute;
+}
+.social-icon1 {
+  color: #f09433;
+  left: 233px;
+  position: absolute;
+}
+.social-icon2 {
+  left: 364px;
+  position: absolute;
+}
+
+
+
+
+
+.BoxConosco {
+  width: 570px;
+  background: rgba(255,255,255,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  position: absolute;
+  left: 697px;
+  opacity: 1;
+}
+.Conosco1 {
+  height: 155px;
+  top: 3159px;
+}
+.Conosco2 {
+  height: 40px;
+  top: 3042px;
+}
+.Conosco3 {
+  height: 40px;
+  top: 2925px;
+  
+}
+
+
+
+
+.Imagem1 {
+  width: 208px;
+  height: 208px;
+  background: url("../images/v295_32.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 271px;
+  left: 242px;
+  overflow: hidden;
+}
+
+.Imagem2 {
+  width: 285px;
+  height: 285px;
+  background: url("../images/v295_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2320px;
+  left: 581px;
+  overflow: hidden;
+}
+
+.Imagem3 {
+  width: 226px;
+  height: 226px;
+  background: url("../images/v295_31.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 910px;
+  left: 960px;
+  overflow: hidden;
+}
+
+.TextoLogin {
+  color: rgb(192, 13, 13);
+  position: absolute;
+  top: 2635px;
+  left: 660px;
+  font-family: Quicksand;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+
+#formulario {
+  position:relative;
+  background: rgb(194, 177, 177);
+  top: 2750px;
+  left: 652px;
+  width: 660px;
+  height: 533px;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 26rem;
+  font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+  color: white;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus  {
+    outline: none;
+    border-color: rgb(255, 166, 0);
+    box-shadow: 0 0 0 3px rgb(255, 204, 127);
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: rgb(240, 108, 32);
+  color: white;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background: rgb(221, 44, 0);
+}
+
+.buttonlogin {
+  position:relative;
+  top: 1850px;
+  left: 600px;
+  box-sizing: border-box;
+  background-color: rgba(252, 108, 24, 0.938);
+  margin-top: 160px;
+  margin-right: 60px;
+  width: 250px;
+  height: 100px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3),
+    -2px -2px 4px rgba(255,255,255,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 3px;
+  font-size: 3em;
+  border-radius: 15%;
+  opacity: 1;
+  overflow: hidden;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.buttonlogin:hover {
+  background-color: red;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/painel.css') }}">
+        <title>Document</title>
+    </head>
+    <body>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        <div id = "Imagens">
+            <div class="logoStick"></div>
+            <div class="nameStick"></div>
+        </div>
+
+        <div class="Fundo">
+            <div class="BackGround"></div>
+        </div>
+
+        <div id="Texto">
+            <span class="Textos TextoPainel1">SEJA BEM VINDO AO</span>
+            <span class="Textos TextoPainel2">Uma nova maneira de</span>
+            <span class="Textos TextoPainel3">potencializar seus estudos.</span>
+        </div>
+
+        <div class="BoxRegistro">
+            <a id = "redes1" class="buttons buttonlogin" href="{{ url_for('login') }}">Login</a>
+            <a id = "redes2" class="buttons buttonRegister" href="{{ url_for('profissao')}}" ">Cadastre-se</a>
+    </body>
+</html>

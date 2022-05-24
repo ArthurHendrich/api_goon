@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+        <title>Document</title>
+    </head>
+</head>
+<body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <div id = "Imagens">
+        <div class="logoStick"></div>
+        <div class="nameStick"></div>
+    </div>
+
+    <div class="Fundo">
+        <div class="BackGround"></div>
+    </div>
+
+    <div id="Texto">
+        <span class="Textos TextoPainel1">SEJA BEM VINDO!</span>
+        <span class="Textos TextoPainel2">Entre em sua conta:</span>
+        <span class="Textos TextoPainel3">Não possui uma conta?</span>
+        <a class="TextoSenha" href="{{ url_for('login') }}">Esqueci minha senha</a>
+        <a class="TextoRegistro" href="{{ url_for('register') }}">Clique aqui.</a>
+    </div>
+
+
+    <div id="formulario">
+        <form action="{{ url_for('login') }}" method="POST" class="form">
+            <label for="name">Email</label>
+            <input type="email" name="email" placeholder="Insira seu e-mail" id="email" required>
+            <label for="password">Senha</label>
+            <input type="password" name="password" placeholder= "***" id="password" required>
+            <input class="Botun" type="submit" name="registro" value="Login">
+        </form>
+    </div>
+
+    <div id="GetBack">
+        <a id = "back1" class="buttonBack" href="{{ url_for('painel')}}">
+            <span class="back"><ion-icon name="chevron-back-circle-outline" size="large"></ion-icon></span>
+        </a>
+    </div>
+</body>
+</html>
